@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#c7fdbf">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:layout_gravity="center_horizontal"
+            android:text="可以編輯"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:selectAllOnFocus="false" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView11"
+            android:src="@mipmap/ic_launcher"
+            android:layout_weight="0.73" />
+
+        <Button
+            android:layout_width="143dp"
+            android:layout_height="wrap_content"
+            android:text="speak"
+            android:id="@+id/speak"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="save"
+            android:id="@+id/save"
+            android:textSize="15sp" />
+    </LinearLayout>
+</RelativeLayout>
